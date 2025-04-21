@@ -27,7 +27,7 @@ This report outlines the steps taken to configure and execute the CI/CD pipeline
    - Execute containerize  ``` docker run -p 5000:5000 prueba8_express . ```
 
 3. **Install dependencies Test**
-    - Install Jest, supertest, esñinmt ```  npm install jest supertest eslint -D ```
+    - Install Jest, supertest, eslint ```npm install jest supertest eslint -D ```
 
 4. **Install Json Server**
     - Install dependencies ```json-server --watch db.json --port 5000```
@@ -54,11 +54,11 @@ This report outlines the steps taken to configure and execute the CI/CD pipeline
 3.  install Json-Server
 ![Json Server](images/jsonServer.png)
 4.  Docker Build
-![Docker Buid](images/buildDocker.png)
+![Docker Buid](images/buidDocker.png)
 5. Resultado Test Pipeline Jenkins
 ![Resultado Pipeline](images/ResTestPipeline.png)
 6. Resultado Final 
-![Resultado Pipeline](images/resFinal.png)
+![Resultado Pipeline](images/ResFinal.png)
 
 
 
