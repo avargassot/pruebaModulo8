@@ -54,9 +54,9 @@ This report outlines the steps taken to configure and execute the CI/CD pipeline
 3.  install Json-Server
 ![Json Server](images/jsonServer.png)
 4.  Api funcionando /users
-![Api Funcionando](images/apiFuncion.png)
-Filter
-![Api Funcionando](images/ApiFuncionFilter.png)
+![Api](images/apiFuncion.png)
+- Filter
+![ApiFilter](images/ApiFuncionFilter.png)
 5. Resultado Test Pipeline Jenkins
 ![Resultado Pipeline](images/ResTestPipeline.png)
 6. Resultado Final 
