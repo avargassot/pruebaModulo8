@@ -54,9 +54,9 @@ This report outlines the steps taken to configure and execute the CI/CD pipeline
 3.  install Json-Server
 ![Json Server](images/jsonServer.png)
 4.  Docker Build
-![Docker Buid](images/builDocker.png)
+![Docker Buid](images/buildDocker.png)
 5. Resultado Test Pipeline Jenkins
-![Resultado Pipeline](images/resTestPipeline.png)
+![Resultado Pipeline](images/ResTestPipeline.png)
 6. Resultado Final 
 ![Resultado Pipeline](images/resFinal.png)
 
