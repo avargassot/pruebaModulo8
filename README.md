@@ -14,6 +14,6 @@ This project demonstrates a simple Node.js API for managing users, integrated wi
 
 ## Running with Docker
 
-1. Build the image: `docker build -t prueba8_Express .`  
-Build the image: `docker build -t prueba8_Db.` 
-2. Run the container: `docker run -p 4000:4000 desafio8`
+1. Build the image: `docker build -t prueba8_express .`  
+
+2. Run the container: `docker run -p 5000:5000 prueba8_express`

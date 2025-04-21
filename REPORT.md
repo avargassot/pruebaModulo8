@@ -23,11 +23,15 @@ This report outlines the steps taken to configure and execute the CI/CD pipeline
 2. **Docker Integration**  
      
    - Created a Dockerfile to containerize the application.
-   - Build de image  ``` docker build -t desafio8 . ```
-   - Execute containerize  ``` docker run -p 4000:4000 desafio8 ```
+   - Build de image  ``` docker build -t prueba8_express .```
+   - Execute containerize  ``` docker run -p 5000:5000 prueba8_express . ```
 
 3. **Install dependencies Test**
     - Install Jest, supertest, esñinmt ```  npm install jest supertest eslint -D ```
+
+4. **Install Json Server**
+    - Install dependencies ```json-server --watch db.json --port 5000```
+
 
 
    
@@ -43,21 +47,15 @@ This report outlines the steps taken to configure and execute the CI/CD pipeline
 ## Results
 
 - \[Add screenshots or logs of successful pipeline runs\]
-1.  Git init
-![Git init](images/initNode.png)
+1.  Init proyect Node and dependencies
+![Node init](images/initNode.png)
 2.  Git Remote
-![Git remote](images/gitRemote.png)
-3.  Create Docker
-![Create Docker](images/createDocker.png)
+![Git remote](images/vinRep.png)
+3.  install Json-Server
+![Json Server](images/jsonServer.png)
 4.  Docker Build
 ![Docker Buid](images/dockerBuild.png)
-5.  Docker Run
-![Docker Run](images/dockerRun.png)
-6. Install dependencies Test
-![Install Dependencies](images/installDep.png)
-7. Config Pipeline Jenkins
-![Config Pipeline](images/configPipeline.png)
-7. Resultado Pipeline Jenkins
+5. Resultado Pipeline Jenkins
 ![Resultado Pipeline](images/resPipeline.png)
 
 
